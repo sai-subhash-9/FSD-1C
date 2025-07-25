@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
       <html>
         <body>
           <h1>Basic Math Operations</h1>
+          <p>This page uses custom created module named mathUtil.js which contains two functions (add,subtract).</p>
           <form method="POST" action="/parse">
             <label>Enter two numbers:</label><br>
             <input type="number" name="A" placeholder="Enter A" required style="width: 400px;">
