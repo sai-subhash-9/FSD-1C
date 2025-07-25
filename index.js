@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
             <input type="number" name="B" placeholder="Enter B" required style="width: 400px;">
             <br>
             <br>
-            <button type="submit">Parse URL</button>
+            <button type="submit">Calculate</button>
           </form>
         </body>
       </html>
