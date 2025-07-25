@@ -1,4 +1,4 @@
-const math = require("./mathUtils");
+const math = require("./mathUtil");
 const http = require('http');
 const querystring = require('querystring');
 const server = http.createServer((req, res) => {
